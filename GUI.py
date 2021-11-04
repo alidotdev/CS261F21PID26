@@ -72,7 +72,7 @@ class Ui_Frame(object):
         self.tableWidget.setHorizontalHeaderItem(8, item)
         self.progressBar = QtWidgets.QProgressBar(Frame)
         self.progressBar.setGeometry(QtCore.QRect(180, 100, 551, 23))
-        self.progressBar.setProperty("value", 24)
+        self.progressBar.setProperty("value", 50)
         self.progressBar.setObjectName("progressBar")
         self.pushButton = QtWidgets.QPushButton(Frame)
         self.pushButton.setGeometry(QtCore.QRect(760, 100, 93, 28))
