@@ -122,16 +122,19 @@ class Ui_Frame(object):
         self.label_2.setObjectName("label_2")
         self.label_3 = QtWidgets.QLabel(Frame)
         self.label_3.setGeometry(QtCore.QRect(590, 10, 131, 31))
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Ignored, QtWidgets.QSizePolicy.Preferred)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Ignored, QtWidgets.QSizePolicy.Preferred)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.label_3.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.label_3.sizePolicy().hasHeightForWidth())
         self.label_3.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setPointSize(11)
         self.label_3.setFont(font)
         self.label_3.setLayoutDirection(QtCore.Qt.LeftToRight)
-        self.label_3.setLocale(QtCore.QLocale(QtCore.QLocale.CentralMoroccoTamazight, QtCore.QLocale.Morocco))
+        self.label_3.setLocale(QtCore.QLocale(
+            QtCore.QLocale.CentralMoroccoTamazight, QtCore.QLocale.Morocco))
         self.label_3.setTextFormat(QtCore.Qt.MarkdownText)
         self.label_3.setObjectName("label_3")
         self.pushButton_5 = QtWidgets.QPushButton(Frame)
